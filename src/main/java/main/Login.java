@@ -9,6 +9,7 @@
 
 package main;
 
+import java.awt.image.DataBuffer;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -62,6 +63,5 @@ public class Login {
 			return "账号密码错误，请重新登陆";
 		}
 	}
-
 
 }
