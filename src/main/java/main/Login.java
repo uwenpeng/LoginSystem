@@ -31,7 +31,6 @@ public class Login {
 	public static Map<String, String> up = new HashMap<String, String>();
 
 	public static void main(String[] args) {
-
 	}
 
 	public static Map<String, String> list() {
@@ -52,7 +51,6 @@ public class Login {
 			System.out.println("\n\n\n\nyou have wrong username");
 			return false;
 		}
-
 	}
 
 	public static String yesOrNo(boolean b) {
@@ -62,5 +60,4 @@ public class Login {
 			return "账号密码错误，请重新登陆";
 		}
 	}
-
 }
